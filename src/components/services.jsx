@@ -7,20 +7,24 @@ export class Services extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Servicios</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
               dapibus leonec.
-            </p>
+            </p> */}
           </div>
-          <div className="row">
+          <div className="row-centered">
             {this.props.data
               ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-4">
+                
+                  <div  key={`${d.name}-${i}`} className="col-md-4 service">
                     {" "}
                     <i className={d.icon}></i>
                     <div className="service-desc">
                       <h3>{d.name}</h3>
                       <p>{d.text}</p>
+                      {/* {d.items.map((item,index) => (
+                        <p className="serv-item">{item}</p>
+                      ))} */}
                     </div>
                   </div>
                 ))

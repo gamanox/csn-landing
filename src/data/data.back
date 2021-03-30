@@ -22,21 +22,21 @@
     "Services": [{
             "icon": "fa fa-hard-hat",
             "name": "Obra Civil",
-            "text": "▪CIMENTACIONES ▪PULIDO Y ABRILLANTADO DE PISOS ▪PINTURA EPOXICA Y AUTONIVELANTES ▪ACABADOS ▪TERRACERÍAS ",
+            "text": "▪CIMENTACIONES ▪PULIDO Y ABRILLANTADO DE PISOS ▪PINTURA EPOXICA Y AUTONIVELANTES ▪ACABADOS ",
             "items": [
                 "▪CIMENTACIONES ",
                 "▪PULIDO Y ABRILLANTADO DE PISOS ",
                 "▪PINTURA EPOXICA Y AUTONIVELANTES ",
-                "▪ACABADOS ",
-                "▪TERRACERÍAS "
+                "▪ACABADOS "
             ]
         },
         {
             "icon": "fa fa-bolt",
             "name": "Eléctrica",
-            "text": "▪LINEAS BAJA Y MEDIA TENSIÓN  ▪CONSTRUCCION DE SUBESTACIONES ▪INSTALACION DE TRANSFORMADORES ▪TABLEROS PRINCIPALES Y DE DISTRIBUCION ▪INSTALACION DE TUBERIA ▪INTERCONEXION DE EQUIPOS DIVERSOS ▪SISTEMA DE ALUMBRADO PUBLICO ▪INSTALACIONES ESPECIALES",
+            "text": "▪LINEAS 110V, 220V, Y 440V ▪CONSTRUCCION DE LINEASDE MEDIA TENSION Y SUB-TRANSMISION ▪CONSTRUCCION DE SUBESTACIONES ▪INSTALACION DE TRANSFORMADORES ▪TABLEROS PRINCIPALES Y DE DISTRIBUCION ▪INSTALACION DE TUBERIA ▪INTERCONEXION DE EQUIPOS DIVERSOS ▪SISTEMA DE ALUMBRADO PUBLICO ▪INSTALACIONES ESPECIALES",
             "items": [
-                "▪LINEAS BAJA Y MEDIA TENSIÓN ",
+                "▪LINEAS 110V, 220V, Y 440V ",
+                "▪CONSTRUCCION DE LINEASDE MEDIA TENSION Y SUB-TRANSMISION ",
                 "▪CONSTRUCCION DE SUBESTACIONES ",
                 "▪INSTALACION DE TRANSFORMADORES ",
                 "▪TABLEROS PRINCIPALES Y DE DISTRIBUCION ",
@@ -48,47 +48,57 @@
             ]
         },
         {
-            "icon": "fa fa-tools",
+            "icon": "fa fa-cog",
             "name": "Mecánica",
-            "text": "•MONTAJE DE MAQUINARIA •INSTALACIÓN DE TUBERÍA •TRASLADO DE PUNTO A PUNTO •COLOCACIÓN, ALINEACIÓN Y NIVELACIÓN DE EQUIPOS •MONTAJE DE PIEZAS ESPECIALES Y VALVULAS   •SISTEMAS HIDRAULICOS Y NEUMATICOS  ",
+            "text": "•MONTAJE DE MAQUINARIA •MONTAJE DE PIEZAS ESPECIALES Y VALVULAS •SOLDADURA, PAILERIA , ESTRUCTURAS , MESANINES •FABRICACION Y DISEÑO DE RACKS INDUSTRIALES PARA USO DE ALMACEN Y LINEAS DE ENSAMBLE •SISTEMAS HIDRAULICOS Y NEUMATICOS, COMPRESORES DE AIRE, PLANTA GENERADORES Y EQUIPOS TRASMISION •SISTEMA CONTRA INCENDIO , CO2, ARGON ETC. ",
             "items": [
                "•MONTAJE DE MAQUINARIA ",
-               "•INSTALACIÓN DE TUBERÍA ",
                "•MONTAJE DE PIEZAS ESPECIALES Y VALVULAS ",
-               "•TRASLADO DE PUNTO A PUNTO ",
-               "•COLOCACIÓN, ALINEACIÓN Y NIVELACIÓN DE EQUIPOS ",
-               "•SISTEMAS HIDRAULICOS Y NEUMATICOS  "
-               
+               "•SOLDADURA, PAILERIA , ESTRUCTURAS , MESANINES ",
+               "•FABRICACION Y DISEÑO DE RACKS INDUSTRIALES PARA USO DE ALMACEN Y LINEAS DE ENSAMBLE ",
+               "•SISTEMAS HIDRAULICOS Y NEUMATICOS, COMPRESORES DE AIRE, PLANTA GENERADORES Y EQUIPOS TRASMISION ",
+               "•SISTEMA CONTRA INCENDIO , CO2, ARGON ETC. "
 
             ]
         },
         {
-            "icon": "fa fa-industry",
-            "name": "Equipamiento",
-            "text": " •SISTEMAS HVAC •SELLOS DE ANDÉN •PROYECTO LLAVE EN MANO •AUTOMATIZACIÓN •COMPRESORES •RAMPAS NIVELADORAS •CORTINAS DE ANDENEN O RAPIDAS",
+            "icon": "fa fa-tools",
+            "name": "Instalaciónes de Equipo",
+            "text": "•HIDRONEUMÁTICOS •AIRES ACONDICIONADOS •UNIDADES DE AIRE LAVADO •BOMBAS CENTRIFUGAS •COMPRESORES •RAMPAS NIVELADORAS •CORTINAS DE ANDENEN O RAPIDAS, ETC. ",
             "items": [
-                "•SISTEMAS HVAC ",
-                "•SELLOS DE ANDÉN",
-                "•PROYECTO LLAVE EN MANO",
-                "•AUTOMATIZACIÓN",
+                "•HIDRONEUMÁTICOS ",
+                "•AIRES ACONDICIONADOS ",
+                "•UNIDADES DE AIRE LAVADO ",
+                "•BOMBAS CENTRIFUGAS ",
                 "•COMPRESORES ",
                 "•RAMPAS NIVELADORAS ",
-                "•CORTINAS DE ANDENEN O RAPIDAS"
+                "•CORTINAS DE ANDENEN O RAPIDAS, ETC."
 
 
             ]
         },
-        
-        
         {
-            "icon": "fa fa-landmark",
-            "name": "Estructuras",
-            "text": "•HABILITACION DE ESTRUCTURA LIGERA, SEMIPESADA Y PESADA  •LAMINACIÓN •FABRICACIÓN DE RACKS, DOLLIES Y CONVEYORS ",
+            "icon": "fa fa-snowplow",
+            "name": "Terracerías",
+            "text": "•SERVICIO DE LIMPIEZA, CORTE Y CONFORMACIÓN DE TERRAPLEN •SERVICIO DE SUMINISTRO E INSTALACION DE SUB-BASE, BASE Y CARPETA DE CONCRETO ASFALTICO O CONCRETO HIDRÁULICO PARA SUS ÁREAS DE EMBARQUES, RECIBOS Y ESTACIONAMIENTOS. ",
             "items": [
-                "•HABILITACION DE ESTRUCTURA LIGERA, SEMIPESADA Y PESADA ",
-                "•LAMINACIÓN ",
-                "•FABRICACIÓN DE RACKS, DOLLIES Y CONVEYORS"
+               "•SERVICIO DE LIMPIEZA, CORTE Y CONFORMACIÓN DE TERRAPLEN ",
+               "•SERVICIO DE SUMINISTRO E INSTALACION DE SUB-BASE, BASE Y CARPETA DE CONCRETO ASFALTICO O CONCRETO HIDRÁULICO PARA SUS ÁREAS DE EMBARQUES, RECIBOS Y ESTACIONAMIENTOS. "
+
             ]
+        },
+        {
+            "icon": "fa fa-faucet",
+            "name": "Tubería",
+            "text": "•HIDRAULICA, NEUMATICA Y SANITARIA •TUBERIA DE PAD •TUBERIA CED. 40 Y 80 DIVERSOS DIAMETROS •ACERO AL CARBON •TUBERIA DE COBRE PARA ALTA PRESION ",
+            "items": [
+                "•HIDRAULICA, NEUMATICA Y SANITARIA ",
+                "•TUBERIA DE PAD ",
+                "•TUBERIA CED. 40 Y 80 DIVERSOS DIAMETROS ",
+                "•ACERO AL CARBON ",
+                "•TUBERIA DE COBRE PARA ALTA PRESION "
+            ]
+        
         }
 
 
@@ -145,16 +155,12 @@
         }
     ],
     "Contact": {
-        "address": "",
-        "phone_saltillo": "+52 844 501 7592",
-        "phone_sanluis": "+52 444 314 5657",
-        "phone_leon": "+52 477 164 3928",
-        "phone_queretaro": "+52 442 820 1957",
-        "email": "contacto@csnoreste.com.mx",
-        "facebook": "https://www.facebook.com/csnorestemx",
-        "twitter": "https://www.instagram.com/csnoreste/",
-        "whatsapp": "https://wa.me/528445017592",
-        "instagram": "https://www.linkedin.com/company/csnoreste"
+        "address": "Carlos Pacheco 656, Brisas Del Valle, Saltillo, COAHUILA, 25169, México ",
+        "phone": "+52 844 436 4047",
+        "email": "info@csnoreste.com.mx",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
@@ -162,35 +168,22 @@
             "title": "General Electric",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
-        
+        {
+            "icon": "fa fa-bullhorn",
+            "image": "cliente02",
+            "title": "Aura Minerales",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "image": "cliente03",
+            "title": "Toyota Boshoku",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
         {
             "icon": "fa fa-magic",
             "image": "cliente04",
             "title": "Arca Continental",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "image": "cliente05",
-            "title": "Gobierno de Coahuila",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "image": "cliente06",
-            "title": "Aura Mining",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "image": "cliente07",
-            "title": "I A C",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "image": "cliente08",
-            "title": "Sanhua Automotive",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ]
