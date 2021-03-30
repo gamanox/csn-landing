@@ -2,19 +2,11 @@
 function main() {
 
 (function () {
+  console.log('main');
    'use strict';
    
-  	$('a.page-scroll').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top - 20
-            }, 900);
-            return false;
-          }
-        }
+  	$('a.page-scroll').click(function(e) {
+      
       });
 
 
@@ -37,13 +29,31 @@ function main() {
 	
 	
     // Nivo Lightbox 
-    $('.portfolio-item a').nivoLightbox({
-            effect: 'slideDown',  
-            keyboardNav: true,                            
-        });
+    
 		
 }());
 
 
 }
 main();
+
+$(function () {
+  $('.portfolio-item a').nivoLightbox({
+      effect: 'slideDown',  
+      keyboardNav: true,                            
+  });
+  $('a.page-scroll').on('click', function(e){
+   e.preventDefault();
+   console.log('click-main');
+   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     var target = $(this.hash);
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     if (target.length) {
+       $('html,body').animate({
+         scrollTop: target.offset().top - 20
+       }, 900);
+       return false;
+     }
+   }
+  });
+});

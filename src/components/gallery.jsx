@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import SimpleReactLightbox from 'simple-react-lightbox'
+
 
 export class Gallery extends Component {
   render() {
@@ -32,12 +35,32 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     
-                      
+                      <a
+                        href="img/equipamiento/equipamiento-01.jpg"
+                        title="Equipamiento"
+                        data-lightbox-gallery="equipamiento"
+                      >
+                        <div className="hover-text">
+                          <h4>Equipamiento</h4>
+                        </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/equipamiento/equipamiento-01.jpg"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Equipamiento"
                       />{" "}
+                      </a>
+                      <a
+                        href="img/equipamiento/equipamiento-02.jpg"
+                        title="Equipamiento"
+                        data-lightbox-gallery="equipamiento"
+                        style={{display: "none"}}
+                      ></a>
+                      <a
+                        href="img/equipamiento/equipamiento-03.jpg"
+                        title="Equipamiento"
+                        data-lightbox-gallery="equipamiento"
+                        style={{display: "none"}}
+                      ></a>
                   </div>
                 </div>
               </div>
@@ -45,13 +68,59 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    
+                    <a
+                      href="img/obracivil/obracivil-06.jpg"
+                      title="Obra Civil"
+                      data-lightbox-gallery="obracivil"
+                    >
+                      <div className="hover-text">
+                        <h4>Obra Civil</h4>
+                      </div>
                       
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/obracivil/obracivil-06.jpg"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Obra Civil"
                       />{" "}
+                      </a>
+                      <a
+                        href="img/obracivil/obracivil-01.jpg"
+                        title="Obra Civil"
+                        data-lightbox-gallery="obracivil"
+                        style={{display: "none"}}
+                      ></a>
+                      <a
+                        href="img/obracivil/obracivil-02.jpg"
+                        title="Obra Civil"
+                        data-lightbox-gallery="obracivil"
+                        style={{display: "none"}}
+                      ></a>
+                      
+                      <a
+                        href="img/obracivil/obracivil-04.jpg"
+                        title="Obra Civil"
+                        data-lightbox-gallery="obracivil"
+                        style={{display: "none"}}
+                      ></a>
+                      <a
+                        href="img/obracivil/obracivil-05.jpg"
+                        title="Obra Civil"
+                        data-lightbox-gallery="obracivil"
+                        style={{display: "none"}}
+                      ></a>
+                      <a
+                        href="img/obracivil/obracivil-06.jpg"
+                        title="Obra Civil"
+                        data-lightbox-gallery="obracivil"
+                        style={{display: "none"}}
+                      ></a>
+                      
+                      <a
+                        href="img/obracivil/obracivil-08.jpg"
+                        title="Obra Civil"
+                        data-lightbox-gallery="obracivil"
+                        style={{display: "none"}}
+                      ></a>
                   </div>
                 </div>
               </div>
